@@ -1,4 +1,6 @@
+import java.util.Scanner;
 public class BreakAndContinue {
+
     public static void main(String []args){
         // for (int i = 1; i<=10; i++){
         //     if (i==5){
@@ -24,15 +26,31 @@ public class BreakAndContinue {
 
 
         //continue Statment
-        for (int i = 1; i<=5; i++){
-            if(i==3){
+        // for (int i = 1; i<=5; i++){
+        //     if(i==3){
+        //         continue;
+        //     }
+        //     System.out.println(i);
+
+
+        // Display all the numbers by user except multiple of 10
+
+        Scanner sc = new Scanner(System.in);
+        do { 
+            System.out.println("Enter your number");
+            int n = sc.nextInt();
+            if(n %10==0){
                 continue;
             }
-            System.out.println(i);
+            System.out.println( "number was:"+n);
+
+
+            
+        } while (true);
         }
 
 
 
     }
     
-}
+
