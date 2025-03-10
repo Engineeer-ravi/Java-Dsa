@@ -14,7 +14,7 @@ public class CreateArray {
 
     Scanner scn =  new Scanner(System.in);
 
-    System.out.println("Length Of Array"+marks.length);
+   //  System.out.println("Length Of Array"+marks.length);
 
     // marks[0]= scn.nextInt();
     // marks[1]= scn.nextInt();
