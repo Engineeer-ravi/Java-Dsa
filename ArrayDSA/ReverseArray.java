@@ -1,5 +1,5 @@
                     //Print The Array in Reverse Order
-                    //input a[]=[10,20,30,40,50]   ----->>> 50,40,30,20,10
+                    //input a[] = [10,20,30,40,50]   ----->>> 50,40,30,20,10
 
 import java.util.Scanner;
 public class ReverseArray {

@@ -27,7 +27,7 @@ public class Demo {
 
             a[i]=sc.nextInt();
         }
-        // print the arra
+        // print the array
         System.out.println("print th element of array:");
         for(i=0; i<size; i++){
             System.out.print(a[i]+" ");
